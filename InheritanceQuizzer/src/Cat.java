@@ -1,11 +1,11 @@
 
 public class Cat extends Feline
 	{
-		protected String makeSound()
+		public String makeSound()
 		{
 			return("Meow");
 		}
-		protected String lick()
+		public String lick()
 		{
 			return("Lick");
 		}

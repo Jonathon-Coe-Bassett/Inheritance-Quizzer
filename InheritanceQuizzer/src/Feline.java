@@ -1,11 +1,11 @@
 
 public class Feline
 	{
-		protected String makeSound()
+		public String makeSound()
 		{
 			return("ROAR");
 		}
-		protected String jump()
+		public String jump()
 		{
 			return("Boing");
 		}
