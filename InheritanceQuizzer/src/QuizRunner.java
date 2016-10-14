@@ -23,9 +23,25 @@ public class QuizRunner
 			while (count<qnum)
 				{
 					runQuestions("Feline", "Feline");
+					if(count>=qnum)
+					{
+						break;
+					}
 					runQuestions("Feline" , "Cat");
+					if(count>=qnum)
+					{
+						break;
+					}
 					runQuestions("Cat", "Feline");
+					if(count>=qnum)
+					{
+						break;
+					}
 					runQuestions("Cat", "Cat");
+					if(count>=qnum)
+					{
+						break;
+					}
 				}
 			printRight();
 
